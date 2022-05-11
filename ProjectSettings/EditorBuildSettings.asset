@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Test/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/1 Witch Intro/1 WitchIntro.unity
+    guid: c6fdd885db5dc264d9022744d3f6bb01
+  - enabled: 1
+    path: Assets/Scenes/2 Duncan Death/2 Duncan Death.unity
+    guid: 6c3cad215c72cc4418220bb9b73ec82c
   m_configObjects: {}

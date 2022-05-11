@@ -280,6 +280,7 @@ GameObject:
   - component: {fileID: 3900108755196472087}
   - component: {fileID: 3900108755196472086}
   - component: {fileID: 3900108755062758274}
+  - component: {fileID: 8725642317841957144}
   m_Layer: 5
   m_Name: ConversationManager
   m_TagString: Untagged
@@ -433,6 +434,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &8725642317841957144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3900108755062758285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e860989b792f4cb4790906fc2cc659e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3900108755107041016
 GameObject:
   m_ObjectHideFlags: 0
