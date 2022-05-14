@@ -152,6 +152,13 @@ namespace DialogueEditor
             TurnOnUI();
             m_currentSpeech = m_conversation.Root;
             SetState(eState.TransitioningDialogueBoxOn);
+
+            Dictionary<string, int> scores = ScoreHandler.getScores();
+            foreach (KeyValuePair<string, int> score in scores)
+            {
+                SetInt(score.Key, score.Value);
+            }
+
         }
 
         public void EndConversation()
@@ -822,7 +829,7 @@ namespace DialogueEditor
                 if (node.ParamActions[i].ParamActionType == SetParamAction.eParamActionType.Int)
                 {
                     int val = (node.ParamActions[i] as SetIntParamAction).Value;
-                    SetInt(name, val);
+                    SetInt(name, GetInt(name) + val);
                 }
                 else if (node.ParamActions[i].ParamActionType == SetParamAction.eParamActionType.Bool)
                 {

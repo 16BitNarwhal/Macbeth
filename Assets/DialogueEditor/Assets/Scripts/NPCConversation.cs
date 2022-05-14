@@ -435,7 +435,7 @@ namespace DialogueEditor
 
                     SetIntParamAction setInt = new SetIntParamAction();
                     setInt.ParameterName = setIntEditable.ParameterName;
-                    setInt.Value = setIntEditable.Value;
+                    setInt.Value += setIntEditable.Value; // TODO: this is a hack/mod, used to be =, now it's +=
                     node.ParamActions.Add(setInt);
                 }
                 else if (editable.ParamActions[i].ParamActionType == EditableSetParamAction.eParamActionType.Bool)

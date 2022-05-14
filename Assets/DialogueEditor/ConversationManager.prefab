@@ -281,10 +281,11 @@ GameObject:
   - component: {fileID: 3900108755196472086}
   - component: {fileID: 3900108755062758274}
   - component: {fileID: 8725642317841957144}
+  - component: {fileID: 8785075187743267512}
   m_Layer: 5
   m_Name: ConversationManager
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: 2800000, guid: 02ba8457eafd82e45a164080bfa1a1ca, type: 3}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -444,6 +445,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e860989b792f4cb4790906fc2cc659e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8785075187743267512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3900108755062758285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf674dc36f14f64fa40c2f15825ef04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &3900108755107041016
