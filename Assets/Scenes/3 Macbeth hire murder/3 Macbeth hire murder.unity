@@ -137,6 +137,9 @@ GameObject:
   - component: {fileID: 210826721}
   - component: {fileID: 210826716}
   - component: {fileID: 210826718}
+  - component: {fileID: 210826720}
+  - component: {fileID: 210826719}
+  - component: {fileID: 210826724}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -173,7 +176,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 6
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 3f0430d2ace2dc5409fac3b2b4612944, type: 3}
+  Icon: {fileID: 21300000, guid: ca634c3a06796a447bc3711fbe110534, type: 3}
   Audio: {fileID: 0}
 --- !u!4 &210826717
 Transform:
@@ -205,6 +208,44 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   NodeID: 10
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 41d07576b9f9a2443adf58a61bc216b2, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &210826719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210826715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 16
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &210826720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210826715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 14
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
   Audio: {fileID: 0}
@@ -244,7 +285,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 1
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: a08719979f5f44b4fa994d18b9bf3d6d, type: 3}
+  Icon: {fileID: 21300000, guid: 41d07576b9f9a2443adf58a61bc216b2, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &210826723
 MonoBehaviour:
@@ -263,7 +304,26 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: fc07b7c487bdd9e4fa2a916f74220709, type: 3}
+  Icon: {fileID: 21300000, guid: ca634c3a06796a447bc3711fbe110534, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &210826724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210826715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 17
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: ca634c3a06796a447bc3711fbe110534, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &293907856
 GameObject:
@@ -381,17 +441,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 14
-  json: '{"Options":[],"Parameters":[{"__type":"EditableIntParameter:#DialogueEditor","ParameterName":"evil","IntValue":0}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":355,"yPos":86},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"We
+  CurrentIDCounter: 18
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":156.400024,"yPos":34},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"Kill
+    Banquo","parentUIDs":[1],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":17}],"EditorInfo":{"isRoot":false,"xPos":411.400024,"yPos":34},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Nothing","parentUIDs":[1],"IconGUID":null,"SpeechUID":-1}],"Parameters":[{"__type":"EditableIntParameter:#DialogueEditor","ParameterName":"evil","IntValue":0}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":1}],"EditorInfo":{"isRoot":true,"xPos":287.400024,"yPos":-201},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"We
     have arrived, your highness","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"First
-    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":2}],"EditorInfo":{"isRoot":false,"xPos":362,"yPos":217},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":289.400024,"yPos":-89},"ID":1,"ParamActions":[],"TMPFontGUID":null,"Text":"What
     should we do?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Second
-    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":362,"yPos":325},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Banquo
+    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":10}],"EditorInfo":{"isRoot":false,"xPos":114.400024,"yPos":124},"ID":2,"ParamActions":[],"TMPFontGUID":null,"Text":"Banquo
     and Flenace are too dangerous to my throne. Banquo is also your enemy. I want
-    you to kill them.","parentUIDs":[1],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":366,"yPos":580},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"We
+    you to kill them.","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":154.400024,"yPos":372},"ID":6,"ParamActions":[],"TMPFontGUID":null,"Text":"We
     are resolved, my lord.","parentUIDs":[10],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"First
-    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":362.199951,"yPos":450},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"We
+    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":6}],"EditorInfo":{"isRoot":false,"xPos":85.5999756,"yPos":246},"ID":10,"ParamActions":[],"TMPFontGUID":null,"Text":"We
     shall, my lord,\r\nPerform what you command us.","parentUIDs":[2],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Second
+    Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":446.400024,"yPos":120},"ID":17,"ParamActions":[],"TMPFontGUID":null,"Text":"Okay,
+    then we''ll be on our way. ","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"First
     Murderer","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -403,6 +466,9 @@ MonoBehaviour:
   - {fileID: 210826721}
   - {fileID: 210826716}
   - {fileID: 210826718}
+  - {fileID: 210826720}
+  - {fileID: 210826719}
+  - {fileID: 210826724}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
@@ -667,7 +733,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 41d07576b9f9a2443adf58a61bc216b2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

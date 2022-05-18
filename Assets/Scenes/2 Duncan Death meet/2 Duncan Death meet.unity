@@ -145,6 +145,7 @@ GameObject:
   - component: {fileID: 65409550}
   - component: {fileID: 65409549}
   - component: {fileID: 65409552}
+  - component: {fileID: 65409551}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -202,7 +203,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 13
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 19670a3f8a047f34b873f45f3eaccef8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409541
 MonoBehaviour:
@@ -233,7 +234,7 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 25
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 8470055a4ff9bd54aaa95cbecced5946, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409542
 MonoBehaviour:
@@ -252,7 +253,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 24
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a24937fdc789a21408472dbf48c28649, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409543
 MonoBehaviour:
@@ -271,7 +272,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 23
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0d6712e8710462d49984b17fae59a1f1, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409544
 MonoBehaviour:
@@ -290,7 +291,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 21
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a24937fdc789a21408472dbf48c28649, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409545
 MonoBehaviour:
@@ -366,7 +367,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 18
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0d6712e8710462d49984b17fae59a1f1, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409549
 MonoBehaviour:
@@ -385,7 +386,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 27
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 19670a3f8a047f34b873f45f3eaccef8, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409550
 MonoBehaviour:
@@ -405,6 +406,37 @@ MonoBehaviour:
   NodeID: 26
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &65409551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65409537}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 100485885}
+        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  NodeID: 32
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: a24937fdc789a21408472dbf48c28649, type: 3}
   Audio: {fileID: 0}
 --- !u!114 &65409552
 MonoBehaviour:
@@ -435,8 +467,93 @@ MonoBehaviour:
         m_CallState: 2
   NodeID: 29
   TMPFont: {fileID: 0}
-  Icon: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0d6712e8710462d49984b17fae59a1f1, type: 3}
   Audio: {fileID: 0}
+--- !u!1 &100485884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 100485886}
+  - component: {fileID: 100485885}
+  - component: {fileID: 100485887}
+  m_Layer: 0
+  m_Name: outro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!320 &100485885
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100485884}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: bb1c4f1fe8038424cac4d423819c307f, type: 2}
+  m_InitialState: 0
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: -6653099749161294938, guid: bb1c4f1fe8038424cac4d423819c307f, type: 2}
+    value: {fileID: 1721180895}
+  - key: {fileID: 8677357507007133804, guid: bb1c4f1fe8038424cac4d423819c307f, type: 2}
+    value: {fileID: 1953258700}
+  - key: {fileID: 3911014738867858822, guid: bb1c4f1fe8038424cac4d423819c307f, type: 2}
+    value: {fileID: 100485884}
+  m_ExposedReferences:
+    m_References: []
+--- !u!4 &100485886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100485884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &100485887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100485884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e52de21a22b6dd44c9cc19f810c65059, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Events:
+    m_Signals:
+    - {fileID: 11400000, guid: fc37f37db543ebf47a71ce6ac88fe730, type: 2}
+    m_Events:
+    - m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1921217082}
+          m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+          m_MethodName: LoadScene
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 3 Macbeth hire murder
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &194635824
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,7 +649,7 @@ GameObject:
   - component: {fileID: 490350182}
   - component: {fileID: 490350184}
   m_Layer: 0
-  m_Name: outro
+  m_Name: macbeth leaves
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -555,10 +672,6 @@ PlayableDirector:
   m_SceneBindings:
   - key: {fileID: -996693466478760552, guid: 73230568b58cc814d96218f78ca7bbc7, type: 2}
     value: {fileID: 1026254473}
-  - key: {fileID: 230080500065267558, guid: 73230568b58cc814d96218f78ca7bbc7, type: 2}
-    value: {fileID: 1721180895}
-  - key: {fileID: 4316638487051797933, guid: 73230568b58cc814d96218f78ca7bbc7, type: 2}
-    value: {fileID: 1953258700}
   - key: {fileID: 2142580029780713483, guid: 73230568b58cc814d96218f78ca7bbc7, type: 2}
     value: {fileID: 2037573375}
   - key: {fileID: -1538850843268794427, guid: 73230568b58cc814d96218f78ca7bbc7, type: 2}
@@ -1501,21 +1614,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 31
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":83.5999756,"yPos":-455},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"the
-    guards","parentUIDs":[13],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":-42.4000244,"yPos":-256},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    now regret killing the guards","parentUIDs":[18],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":190.599976,"yPos":-256},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[18],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":322,"yPos":-354},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"no
-    idea","parentUIDs":[13],"IconGUID":null,"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":true,"xPos":143,"yPos":-718},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"KING
-    DUNCAN IS DEAD","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":149.599976,"yPos":-587},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Who
-    dunnit","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Banquo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":9.599976,"yPos":-374},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"The
-    guards were definitely the culprits!","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":-64.4000244,"yPos":-176},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
-    did you kill them","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":-40.4000244,"yPos":-48},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    too angry","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":212.599976,"yPos":-125},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"The
-    guards must have been hired by someone","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":318.599976,"yPos":15},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"ughhhhh
+  CurrentIDCounter: 33
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":18}],"EditorInfo":{"isRoot":false,"xPos":121,"yPos":-382},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"the
+    guards","parentUIDs":[13],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":-5,"yPos":-183},"ID":19,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    now regret killing the guards","parentUIDs":[18],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":228,"yPos":-183},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[18],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":27}],"EditorInfo":{"isRoot":false,"xPos":359.400024,"yPos":-281},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"no
+    idea","parentUIDs":[13],"IconGUID":null,"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":13}],"EditorInfo":{"isRoot":true,"xPos":180.400024,"yPos":-645},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"KING
+    DUNCAN IS DEAD","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":187,"yPos":-514},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"Who
+    dunnit","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Banquo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":19},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":47,"yPos":-301},"ID":18,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    guards were definitely the culprits!","parentUIDs":[14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":23}],"EditorInfo":{"isRoot":false,"xPos":-27,"yPos":-103},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"Why
+    did you kill them","parentUIDs":[19],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":-3,"yPos":25},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    too angry","parentUIDs":[21],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":250,"yPos":-52},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"The
+    guards must have been hired by someone","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":29}],"EditorInfo":{"isRoot":false,"xPos":356,"yPos":88},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"ughhhhh
     *faints*","parentUIDs":[23,24,27],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":471,"yPos":-213},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"This
-    is your house! You must have known","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Banquo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":334,"yPos":129},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
-    my lady!","parentUIDs":[25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":508.400024,"yPos":-140},"ID":27,"ParamActions":[],"TMPFontGUID":null,"Text":"This
+    is your house! You must have known","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Banquo","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":371.400024,"yPos":202},"ID":29,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    my lady!","parentUIDs":[25],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":396,"yPos":333},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"It
+    seems that Malcolm and Donalbain have fleed. Very suspicous","parentUIDs":[29],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -1534,11 +1648,24 @@ MonoBehaviour:
   - {fileID: 65409550}
   - {fileID: 65409549}
   - {fileID: 65409552}
+  - {fileID: 65409551}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 490350182}
+        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &2045010531
 Transform:
   m_ObjectHideFlags: 0

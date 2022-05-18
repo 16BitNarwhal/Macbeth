@@ -9,8 +9,10 @@ public class ScoreHandler : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        // find dialogue manager
-        scores.Add("evil", 0);
+        // if "evil" not in scores, add it with value 0
+        if (!scores.ContainsKey("evil")) {
+            scores.Add("evil", 0);
+        }
     }
 
     public static Dictionary<string, int> getScores() {
