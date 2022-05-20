@@ -6,10 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/1 Introduction/1 Introduction.unity
+    guid: 683325e323ea72042b3954b081fc19f3
+  - enabled: 1
     path: Assets/Scenes/1 Lady Macbeth talk/1 Lady Macbeth talk.unity
     guid: bdd6f0602b7370544aacb15845a07778
   - enabled: 1
-    path: Assets/Scenes/1 Witch Intro/1 WitchIntro.unity
+    path: Assets/Scenes/1 Witch Intro/1 Witch Intro.unity
     guid: c6fdd885db5dc264d9022744d3f6bb01
   - enabled: 1
     path: Assets/Scenes/2 Duncan Death/2 Duncan Death.unity
@@ -21,12 +24,27 @@ EditorBuildSettings:
     path: Assets/Scenes/2 Duncan Death p2/2 Duncan Death p2.unity
     guid: 2bde8e11beb92f142b2640422df4c3ec
   - enabled: 1
+    path: Assets/Scenes/3 Banquet/3 Banquet.unity
+    guid: f90be42e66d748b4abb923301dea4b74
+  - enabled: 1
     path: Assets/Scenes/3 Macbeth hire murder/3 Macbeth hire murder.unity
     guid: f6704cc37a061704184de82358772742
   - enabled: 1
     path: Assets/Scenes/3 Murder kill Banquo/3 Murder kill Banquo.unity
     guid: 8ae83d21fb0555a40894d2b1429bffdf
   - enabled: 1
+    path: Assets/Scenes/4 Birnam Wood/4 Birnam Wood.unity
+    guid: b067d306c40d9f045b9ab2bf5109c4da
+  - enabled: 1
     path: Assets/Scenes/4 New prophecies/4 New prophecies.unity
     guid: 1e94d5aae5120ac49ab826396c330a34
+  - enabled: 1
+    path: Assets/Scenes/5 Battle/5 Battle.unity
+    guid: 3072f2a2e25b1f441b018ff1f0e25de2
+  - enabled: 1
+    path: Assets/Scenes/5 Lady Macbeth death/5 Lady Macbeth death.unity
+    guid: 180fcd38fc0110b4a868fd7de98458b6
+  - enabled: 1
+    path: Assets/Scenes/gameover/gameover.unity
+    guid: b815d84f4d553ac44837baa81b42d002
   m_configObjects: {}

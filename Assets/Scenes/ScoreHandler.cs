@@ -9,9 +9,13 @@ public class ScoreHandler : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        // if "evil" not in scores, add it with value 0
-        if (!scores.ContainsKey("evil")) {
-            scores.Add("evil", 0);
+        addKey("killed guards", 1);
+        addKey("killed duncan", 1);
+    }
+
+    private void addKey(string key, int value) {
+        if (!scores.ContainsKey(key)) {
+            scores.Add(key, value);
         }
     }
 

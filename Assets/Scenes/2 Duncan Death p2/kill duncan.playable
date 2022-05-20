@@ -711,8 +711,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips: []
   m_Markers:
-    m_Objects:
-    - {fileID: 1023822924553346060}
+    m_Objects: []
 --- !u!114 &-385668035865077824
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -764,7 +763,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
-  m_Name: outro
+  m_Name: kill duncan
   m_EditorClassIdentifier: 
   m_Version: 0
   m_Tracks:
@@ -777,22 +776,6 @@ MonoBehaviour:
     m_ScenePreview: 1
   m_DurationMode: 0
   m_MarkerTrack: {fileID: -1679239689644828111}
---- !u!114 &1023822924553346060
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
-  m_Name: Signal Emitter
-  m_EditorClassIdentifier: 
-  m_Time: 2.966666666666667
-  m_Retroactive: 0
-  m_EmitOnce: 0
-  m_Asset: {fileID: 11400000, guid: fc37f37db543ebf47a71ce6ac88fe730, type: 2}
 --- !u!114 &1486557271604955132
 MonoBehaviour:
   m_ObjectHideFlags: 1
