@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneHandler : MonoBehaviour
 {
+    void Start() {
+        Camera.main.backgroundColor = Color.black;
+    }
     
     public void LoadScene(string sceneName)
     {

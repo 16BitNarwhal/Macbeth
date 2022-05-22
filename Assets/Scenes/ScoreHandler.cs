@@ -9,8 +9,8 @@ public class ScoreHandler : MonoBehaviour {
 
     // Start is called before the first frame update
     void Start() {
-        addKey("killed guards", 1);
-        addKey("killed duncan", 1);
+        addKey("killed guards", 0); 
+        addKey("killed banquo", 0);
     }
 
     private void addKey(string key, int value) {
