@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Title screen/Title screen.unity
+    guid: 27d5b4ac32fe96d43a49afb721730f64
+  - enabled: 1
     path: Assets/Scenes/1 Introduction/1 Introduction.unity
     guid: 683325e323ea72042b3954b081fc19f3
   - enabled: 1
@@ -23,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2 Duncan Death p2/2 Duncan Death p2.unity
     guid: 2bde8e11beb92f142b2640422df4c3ec
+  - enabled: 1
+    path: Assets/Scenes/2 peace route/2 peace route.unity
+    guid: 92a7c9bb8c2c6114ab0f95e550251bdc
   - enabled: 1
     path: Assets/Scenes/3 Hallucination/3 Hallucination.unity
     guid: eb1c4c308a86a4e48b06f9ce6adb564b
@@ -48,12 +54,21 @@ EditorBuildSettings:
     path: Assets/Scenes/5 Battle/5 Battle.unity
     guid: 3072f2a2e25b1f441b018ff1f0e25de2
   - enabled: 1
+    path: Assets/Scenes/5 celebration/5 celebration.unity
+    guid: cf554f1364fcd52448b4026819868cb8
+  - enabled: 1
+    path: Assets/Scenes/5 flee/5 flee.unity
+    guid: cafc90a48474c9c4d8f1d26c3a32f696
+  - enabled: 1
     path: Assets/Scenes/5 Lady Macbeth death/5 Lady Macbeth death.unity
     guid: 180fcd38fc0110b4a868fd7de98458b6
   - enabled: 1
+    path: Assets/Scenes/5 macbeth celebration/5 macbeth celebration.unity
+    guid: 98022082a7daa7c46b3a7c084f4f1509
+  - enabled: 1
+    path: Assets/Scenes/5 surrender/5 surrender.unity
+    guid: ce15b6c15ba3bc24fb227c1aed09981f
+  - enabled: 1
     path: Assets/Scenes/gameover/gameover.unity
     guid: b815d84f4d553ac44837baa81b42d002
-  - enabled: 1
-    path: Assets/Scenes/Test/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}

@@ -852,13 +852,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 43
-  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":273.499969,"yPos":324},"ID":41,"ParamActions":[],"TMPFontGUID":null,"Text":"Stab
-    them","parentUIDs":[40],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":507.5,"yPos":324},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Will
-    Smith them","parentUIDs":[40],"IconGUID":null,"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":39}],"EditorInfo":{"isRoot":true,"xPos":373.5,"yPos":6},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Kid.
+  json: '{"Options":[{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":291.499969,"yPos":340},"ID":41,"ParamActions":[],"TMPFontGUID":null,"Text":"Stab
+    them","parentUIDs":[40],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":525.5,"yPos":340},"ID":42,"ParamActions":[],"TMPFontGUID":null,"Text":"Will
+    Smith them","parentUIDs":[40],"IconGUID":null,"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":39}],"EditorInfo":{"isRoot":true,"xPos":391.5,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Kid.
     Your father is a traitor","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":378.499969,"yPos":111},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"NO.
+    Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":false,"xPos":396.499969,"yPos":127},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"NO.
     I DONT BELIEVE YOU. ","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Child
-    Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":41},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":382.499969,"yPos":218},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi!!!
+    Macduff","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":41},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":42}],"EditorInfo":{"isRoot":false,"xPos":400.499969,"yPos":234},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi!!!
     I''m here to kill you!","parentUIDs":[39],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
@@ -875,19 +875,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1739279108}
-        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &659813797
 Transform:
   m_ObjectHideFlags: 0
@@ -971,10 +959,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 960, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

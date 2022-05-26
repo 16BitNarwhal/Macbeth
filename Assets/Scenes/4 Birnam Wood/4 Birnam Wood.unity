@@ -2413,7 +2413,7 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 5 Battle
+            m_StringArgument: 5 Lady Macbeth death
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!1 &1404193655
@@ -2531,10 +2531,10 @@ MonoBehaviour:
   json: "{\"Options\":[],\"Parameters\":[{\"__type\":\"EditableIntParameter:#DialogueEditor\",\"ParameterName\":\"killed
     banquo\",\"IntValue\":0}],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableIntCondition:#DialogueEditor\",\"ParameterName\":\"killed
     banquo\",\"CheckType\":1,\"RequiredValue\":1}],\"NodeUID\":21},{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[{\"__type\":\"EditableIntCondition:#DialogueEditor\",\"ParameterName\":\"killed
-    banquo\",\"CheckType\":2,\"RequiredValue\":0}],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":391.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Macbeth 
-    has gone too far! We must stop the tyrant\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Malcolm\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":440.5,\"yPos\":457},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
-    shall be done\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Soldier\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":279,\"yPos\":169},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yes
-    I agree! \\nAlthough he was once my comrade, I cannot accept his spiteful actions\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Banquo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":495,\"yPos\":294},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Let
+    banquo\",\"CheckType\":2,\"RequiredValue\":0}],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":313.5,\"yPos\":-75},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Macbeth 
+    has gone too far! We must stop the tyrant\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Malcolm\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":362.5,\"yPos\":360},\"ID\":1,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"It
+    shall be done\",\"parentUIDs\":[22],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Soldier\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":201,\"yPos\":72},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Yes
+    I agree! \\nAlthough he was once my comrade, I cannot accept his spiteful actions\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Banquo\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":1}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":417,\"yPos\":197},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Let
     every soldier hew him down a bough\\r\\nAnd bear \u2019t before him. Thereby
     shall we shadow\\r\\nThe numbers of our host and make discovery\\r\\nErr in report
     of us.\",\"parentUIDs\":[0,21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Malcolm\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
@@ -4688,10 +4688,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 960, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

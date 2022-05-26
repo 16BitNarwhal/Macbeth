@@ -153,17 +153,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 33
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":297.5,"yPos":-109},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
-    here to kill you","parentUIDs":[0],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":516.5,"yPos":-107},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"DIE!!!","parentUIDs":[0],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":197.5,"yPos":470},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Nevermind,
-    they should be drugged","parentUIDs":[26],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":527.5,"yPos":480},"ID":30,"ParamActions":[{"__type":"EditableSetIntParamAction:#DialogueEditor","ParameterName":"killed
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":15}],"EditorInfo":{"isRoot":false,"xPos":314.5,"yPos":213},"ID":13,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    here to kill you","parentUIDs":[0],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":533.5,"yPos":215},"ID":14,"ParamActions":[],"TMPFontGUID":null,"Text":"DIE!!!","parentUIDs":[0],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":214.5,"yPos":792},"ID":28,"ParamActions":[],"TMPFontGUID":null,"Text":"Nevermind,
+    they should be drugged","parentUIDs":[26],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":544.5,"yPos":802},"ID":30,"ParamActions":[{"__type":"EditableSetIntParamAction:#DialogueEditor","ParameterName":"killed
     guards","Value":1}],"TMPFontGUID":null,"Text":"Kill them","parentUIDs":[26],"IconGUID":null,"SpeechUID":-1}],"Parameters":[{"__type":"EditableIntParameter:#DialogueEditor","ParameterName":"killed
-    guards","IntValue":0}],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":13},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":true,"xPos":405.5,"yPos":-225},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Hi
-    Macbeth","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"King
-    Duncan","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":263.5,"yPos":-23},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
+    guards","IntValue":0}],"SpeechNodes":[{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":13},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":14}],"EditorInfo":{"isRoot":true,"xPos":422.5,"yPos":97},"ID":0,"ParamActions":[{"__type":"EditableSetIntParamAction:#DialogueEditor","ParameterName":"killed
+    guards","Value":0}],"TMPFontGUID":null,"Text":"Hi Macbeth","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"King
+    Duncan","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":16}],"EditorInfo":{"isRoot":false,"xPos":280.5,"yPos":299},"ID":15,"ParamActions":[],"TMPFontGUID":null,"Text":"I''m
     very sad to hear that","parentUIDs":[13],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"King
-    Duncan","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":393.5,"yPos":99},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Bye
-    bye","parentUIDs":[15,14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":28},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":376.5,"yPos":357},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
-    no, I think the guards have seen me.","parentUIDs":[32],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":386,"yPos":225},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"Sleep
+    Duncan","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":32}],"EditorInfo":{"isRoot":false,"xPos":410.5,"yPos":421},"ID":16,"ParamActions":[],"TMPFontGUID":null,"Text":"Bye
+    bye","parentUIDs":[15,14],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":28},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":393.5,"yPos":679},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Oh
+    no, I think the guards have seen me.","parentUIDs":[32],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":403,"yPos":547},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"Sleep
     no more!\r\nMacbeth does murder sleep","parentUIDs":[16],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"A
     voice","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
@@ -268,10 +268,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 960, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3

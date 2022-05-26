@@ -11,6 +11,9 @@ public class ScoreHandler : MonoBehaviour {
     void Start() {
         addKey("killed guards", 0); 
         addKey("killed banquo", 0);
+        addKey("killed lady macduff", 0);
+        addKey("killed macduff", 0); // macbeth killed macduff in final battle
+        addKey("killed macbeth", 0); // macduff killed macbeth in final battle
     }
 
     private void addKey(string key, int value) {

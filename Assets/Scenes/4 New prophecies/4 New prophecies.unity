@@ -613,10 +613,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 960, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -1803,34 +1803,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CurrentIDCounter: 36
-  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":165,\"yPos\":-501},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Call
-    'em. Let me see 'em\",\"parentUIDs\":[11],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":101,\"yPos\":-169},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"For
-    thy good caution, thanks.\",\"parentUIDs\":[14],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":267,\"yPos\":367},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That
-    will never be.\",\"parentUIDs\":[22],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":371,\"yPos\":786},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I'll
-    pay a visit to Macduff's family\",\"parentUIDs\":[29],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":606,\"yPos\":787},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    shall leave and prepare for war!\",\"parentUIDs\":[29],\"IconGUID\":null,\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":265.5,\"yPos\":-753},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
-    demand to know more about my future\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":264,\"yPos\":-632},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Say,
+  json: "{\"Options\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":13}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":291,\"yPos\":274},\"ID\":15,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Call
+    'em. Let me see 'em\",\"parentUIDs\":[11],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":20}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":227,\"yPos\":606},\"ID\":23,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"For
+    thy good caution, thanks.\",\"parentUIDs\":[14],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":26}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":393,\"yPos\":1142},\"ID\":27,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"That
+    will never be.\",\"parentUIDs\":[22],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":497,\"yPos\":1561},\"ID\":34,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I'll
+    pay a visit to Macduff's family\",\"parentUIDs\":[29],\"IconGUID\":null,\"SpeechUID\":-1},{\"Connections\":[],\"EditorInfo\":{\"isRoot\":false,\"xPos\":732,\"yPos\":1562},\"ID\":35,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    shall leave and prepare for war!\",\"parentUIDs\":[29],\"IconGUID\":null,\"SpeechUID\":-1}],\"Parameters\":[],\"SpeechNodes\":[{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":11}],\"EditorInfo\":{\"isRoot\":true,\"xPos\":391.5,\"yPos\":22},\"ID\":0,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"I
+    demand to know more about my future\",\"parentUIDs\":[],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":15}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":390,\"yPos\":143},\"ID\":11,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Say,
     if th' hadst rather hear it from our mouths,\\r\\nOr from our masters'.\",\"parentUIDs\":[0],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Third
-    Witch\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":123,\"yPos\":-392},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Come,
+    Witch\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":14}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":249,\"yPos\":383},\"ID\":13,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Come,
     high or low; Thyself and office deftly show!\",\"parentUIDs\":[15],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"All
-    Witches\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":91,\"yPos\":-275},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Macbeth!
+    Witches\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":23}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":217,\"yPos\":500},\"ID\":14,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Macbeth!
     Macbeth! Macbeth! Beware Macduff.\\r\\nBeware the thane of Fife. Dismiss me.
     Enough.\",\"parentUIDs\":[13],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"First
-    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":113,\"yPos\":-80},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Be
+    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":25}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":239,\"yPos\":695},\"ID\":20,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Be
     bloody, bold, and resolute. Laugh to scorn\\r\\nThe power of man, for none of
     woman born\\r\\nShall harm Macbeth.\",\"parentUIDs\":[23],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Second
-    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":176,\"yPos\":149},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Be
+    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":22}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":302,\"yPos\":924},\"ID\":21,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Be
     lion-mettled, proud, and take no care\\r\\nWho chafes, who frets, or where conspirers
     are. \",\"parentUIDs\":[25],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Third
-    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":219,\"yPos\":266},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Macbeth
+    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":27}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":345,\"yPos\":1041},\"ID\":22,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Macbeth
     shall never vanquished be until\\r\\nGreat Birnam Wood to high Dunsinane Hill\\r\\nShall
     come against him.\",\"parentUIDs\":[21],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Third
-    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":155,\"yPos\":35},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Then
+    Apparition\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":21}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":281,\"yPos\":810},\"ID\":25,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Then
     live, Macduff. What need I fear of thee?\\r\\nBut yet I\u2019ll make assurance
-    double sure,\\r\\nAnd take a bond of fate. Thou shalt not live\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":316,\"yPos\":444},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"My
+    double sure,\\r\\nAnd take a bond of fate. Thou shalt not live\",\"parentUIDs\":[20],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":30}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":442,\"yPos\":1219},\"ID\":26,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"My
     heart\\r\\nThrobs to know one thing. Tell me, if your art\\r\\nCan tell so much:
-    shall Banquo\u2019s issue ever\\r\\nReign in this kingdom?\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":468,\"yPos\":641},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Thou
-    art too like the spirit of Banquo. Down! I\u2019ll see no more. \",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":402,\"yPos\":543},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Show.\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"First
+    shall Banquo\u2019s issue ever\\r\\nReign in this kingdom?\",\"parentUIDs\":[27],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":34},{\"__type\":\"EditableOptionConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":35}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":594,\"yPos\":1416},\"ID\":29,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Thou
+    art too like the spirit of Banquo. Down! I\u2019ll see no more. \",\"parentUIDs\":[30],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"Macbeth\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0},{\"Connections\":[{\"__type\":\"EditableSpeechConnection:#DialogueEditor\",\"Conditions\":[],\"NodeUID\":29}],\"EditorInfo\":{\"isRoot\":false,\"xPos\":528,\"yPos\":1318},\"ID\":30,\"ParamActions\":[],\"TMPFontGUID\":null,\"Text\":\"Show.\",\"parentUIDs\":[26],\"AdvanceDialogueAutomatically\":false,\"AudioGUID\":null,\"AutoAdvanceShouldDisplayOption\":false,\"IconGUID\":null,\"Name\":\"First
     Witch\",\"OptionUIDs\":null,\"SpeechUID\":0,\"TimeUntilAdvance\":0,\"Volume\":0}]}"
   saveVersion: 110
   DefaultName: 
@@ -1857,19 +1857,7 @@ MonoBehaviour:
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 450856481}
-        m_TargetAssemblyTypeName: UnityEngine.Playables.PlayableDirector, UnityEngine
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!4 &920346371
 Transform:
   m_ObjectHideFlags: 0

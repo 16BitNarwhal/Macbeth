@@ -751,7 +751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886443223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.11, y: 1.95, z: 0}
+  m_LocalPosition: {x: -3.11, y: 0.95, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -908,26 +908,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83189876d4d389f43b7dd2e925aa112e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CurrentIDCounter: 39
-  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":200.500031,"yPos":370},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"What..","parentUIDs":[21],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":424.5,"yPos":355},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"HE''S
-    STILL HERE","parentUIDs":[21],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":19.50003,"yPos":661},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    must visit the witches again","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":440.5,"yPos":651},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"I
-    will kill Macduff''s family!","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":448.5,"yPos":546},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"NOOOOOO","parentUIDs":[25],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":37}],"EditorInfo":{"isRoot":false,"xPos":109.500031,"yPos":743},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"Give
-    up","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":329.500031,"yPos":741},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Prepare
-    for war!","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":115.500031,"yPos":959},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[37],"IconGUID":null,"SpeechUID":-1}],"Parameters":[],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":true,"xPos":268.000031,"yPos":22},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"Ughh,
-    what happened?","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":21}],"EditorInfo":{"isRoot":false,"xPos":283.500031,"yPos":126},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"You
-    lunatic!","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":23},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":283.500031,"yPos":248},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+  CurrentIDCounter: 41
+  json: '{"Options":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":26}],"EditorInfo":{"isRoot":false,"xPos":112,"yPos":136},"ID":23,"ParamActions":[],"TMPFontGUID":null,"Text":"What..","parentUIDs":[21,39],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":25}],"EditorInfo":{"isRoot":false,"xPos":540,"yPos":120},"ID":24,"ParamActions":[],"TMPFontGUID":null,"Text":"HE''S
+    STILL HERE","parentUIDs":[21,39],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":81,"yPos":408},"ID":32,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    must visit the witches again","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":502,"yPos":398},"ID":33,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    will kill Macduff''s family!","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":551,"yPos":311},"ID":34,"ParamActions":[],"TMPFontGUID":null,"Text":"NOOOOOO","parentUIDs":[25],"IconGUID":null,"SpeechUID":-1},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":37}],"EditorInfo":{"isRoot":false,"xPos":171,"yPos":490},"ID":35,"ParamActions":[],"TMPFontGUID":null,"Text":"Give
+    up","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":391,"yPos":490},"ID":36,"ParamActions":[],"TMPFontGUID":null,"Text":"Prepare
+    for war!","parentUIDs":[30],"IconGUID":null,"SpeechUID":-1},{"Connections":[],"EditorInfo":{"isRoot":false,"xPos":177,"yPos":706},"ID":38,"ParamActions":[],"TMPFontGUID":null,"Text":"...","parentUIDs":[37],"IconGUID":null,"SpeechUID":-1}],"Parameters":[{"__type":"EditableIntParameter:#DialogueEditor","ParameterName":"killed
+    banquo","IntValue":0}],"SpeechNodes":[{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":40}],"EditorInfo":{"isRoot":true,"xPos":325.5,"yPos":-408},"ID":0,"ParamActions":[],"TMPFontGUID":null,"Text":"*after
+    Macbeth''s banquet*","parentUIDs":[],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Narrator","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableIntCondition:#DialogueEditor","ParameterName":"killed
+    banquo","CheckType":0,"RequiredValue":1}],"NodeUID":21},{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[{"__type":"EditableIntCondition:#DialogueEditor","ParameterName":"killed
+    banquo","CheckType":0,"RequiredValue":0}],"NodeUID":39}],"EditorInfo":{"isRoot":false,"xPos":345,"yPos":-127},"ID":20,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    lunatic!","parentUIDs":[40],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":23},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":165,"yPos":3},"ID":21,"ParamActions":[],"TMPFontGUID":null,"Text":"You
     were screaming about some bloody Banquo ghost haunting you","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":421.5,"yPos":441},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Off
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":34}],"EditorInfo":{"isRoot":false,"xPos":573,"yPos":203},"ID":25,"ParamActions":[],"TMPFontGUID":null,"Text":"Off
     to grave with you!","parentUIDs":[24],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":193.500031,"yPos":451},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Forget
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":30}],"EditorInfo":{"isRoot":false,"xPos":142,"yPos":211},"ID":26,"ParamActions":[],"TMPFontGUID":null,"Text":"Forget
     about that. Macduff has gone to England to rebel against you!","parentUIDs":[23],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":32},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":33},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":200.500031,"yPos":551},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"What
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":32},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":33},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":35},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":36}],"EditorInfo":{"isRoot":false,"xPos":229,"yPos":314},"ID":30,"ParamActions":[],"TMPFontGUID":null,"Text":"What
     will you do?","parentUIDs":[26],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":109.500031,"yPos":830},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"Great
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":38}],"EditorInfo":{"isRoot":false,"xPos":171,"yPos":577},"ID":37,"ParamActions":[],"TMPFontGUID":null,"Text":"Great
     idea!","parentUIDs":[35],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
-    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":23},{"__type":"EditableOptionConnection:#DialogueEditor","Conditions":[],"NodeUID":24}],"EditorInfo":{"isRoot":false,"xPos":435.5,"yPos":-12},"ID":39,"ParamActions":[],"TMPFontGUID":null,"Text":"You
+    were screaming about some bloody Duncan ghost haunting you","parentUIDs":[20],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Lady
+    Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0},{"Connections":[{"__type":"EditableSpeechConnection:#DialogueEditor","Conditions":[],"NodeUID":20}],"EditorInfo":{"isRoot":false,"xPos":326,"yPos":-257},"ID":40,"ParamActions":[],"TMPFontGUID":null,"Text":"I
+    feel terrible\nWhat happened?","parentUIDs":[0],"AdvanceDialogueAutomatically":false,"AudioGUID":null,"AutoAdvanceShouldDisplayOption":false,"IconGUID":null,"Name":"Macbeth","OptionUIDs":null,"SpeechUID":0,"TimeUntilAdvance":0,"Volume":0}]}'
   saveVersion: 110
   DefaultName: 
   DefaultSprite: {fileID: 0}
@@ -949,11 +955,25 @@ MonoBehaviour:
   - {fileID: 1198066396}
   - {fileID: 1198066398}
   - {fileID: 1198066399}
+  - {fileID: 1198066400}
+  - {fileID: 1198066401}
   ContinueFont: {fileID: 0}
   EndConversationFont: {fileID: 0}
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119812580}
+        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: gameover
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!4 &967165238
 Transform:
   m_ObjectHideFlags: 0
@@ -1077,6 +1097,8 @@ GameObject:
   - component: {fileID: 1198066396}
   - component: {fileID: 1198066398}
   - component: {fileID: 1198066399}
+  - component: {fileID: 1198066400}
+  - component: {fileID: 1198066401}
   m_Layer: 0
   m_Name: ConversationEventInfo
   m_TagString: Untagged
@@ -1246,7 +1268,7 @@ MonoBehaviour:
       m_Calls: []
   NodeID: 0
   TMPFont: {fileID: 0}
-  Icon: {fileID: 21300000, guid: 0d6712e8710462d49984b17fae59a1f1, type: 3}
+  Icon: {fileID: 0}
   Audio: {fileID: 0}
 --- !u!114 &1198066390
 MonoBehaviour:
@@ -1388,7 +1410,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Event:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 119812580}
+        m_TargetAssemblyTypeName: SceneHandler, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 5 Lady Macbeth death
+          m_BoolArgument: 0
+        m_CallState: 2
   NodeID: 36
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
@@ -1461,6 +1495,44 @@ MonoBehaviour:
   NodeID: 38
   TMPFont: {fileID: 0}
   Icon: {fileID: 0}
+  Audio: {fileID: 0}
+--- !u!114 &1198066400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198066382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 39
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 8470055a4ff9bd54aaa95cbecced5946, type: 3}
+  Audio: {fileID: 0}
+--- !u!114 &1198066401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198066382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00abedce3cdbbba46bf2d86c9518c9f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event:
+    m_PersistentCalls:
+      m_Calls: []
+  NodeID: 40
+  TMPFont: {fileID: 0}
+  Icon: {fileID: 21300000, guid: 0d6712e8710462d49984b17fae59a1f1, type: 3}
   Audio: {fileID: 0}
 --- !u!1 &1333305492
 GameObject:
@@ -1632,10 +1704,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 960, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
